@@ -4,11 +4,6 @@ from tweepy import OAuthHandler
 from win10toast import ToastNotifier
 n = ToastNotifier()
 
-consumer_key = 'lSC7SJ2ZN24Y9oYAog43cX628'
-consumer_secret = 'AOwfcavm9A3r02O7fzuNuCrrqTlBh2YmGBDxdlZtHfJnVior9c'
-access_token = '759544043361734656-whQmxqLWM5UUzkw0wkxkrwqS8iNJzXl'
-access_token_secret = 'xeayYvSWfYQtoMEecN04a7INEUj5AQwqeH4k68OoVznPu'
-
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
