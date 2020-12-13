@@ -14,3 +14,7 @@ Program designed to process Twitter data and write the processed data into a csv
 
 Program used in the processing of the Twitter data and the WHO COVID-19 data for the month of October for data science final project. The program reads in data from each of the json files for the month of October and reads in the WHO COVID-19 csv, processes it and writes all of it into a csv file. 
 
+## streaming.py
+
+This program uses the python module Tweepy to access the Twitter API for tweets mentioning COVID-19, Coronavirus or Covid. This program then gets the Tweet ids and writes them to a file. Cutoff is around 1000 as to make sure that no errors occur when running this program multiples scheduled times throughout the day. 
+
